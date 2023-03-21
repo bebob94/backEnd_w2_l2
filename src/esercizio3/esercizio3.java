@@ -5,6 +5,7 @@ import java.util.*;
 public class esercizio3 {
 	private static Scanner input = new Scanner(System.in);
 	private static Integer numeroElementi;
+	
 	public static void main(String[] args) {
 		Map<String, Integer> rubrica = inserimentoCoppia();
 		eliminazioneCoppia(rubrica);
