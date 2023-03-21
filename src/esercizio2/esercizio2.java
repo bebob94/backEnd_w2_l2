@@ -23,8 +23,7 @@
 	    }
 	    
 	    //<<<<<<<<<<<<<<<<<<FUNZIONE CHE CREA UNA LISTA DI NUMERI CASUALI>>>>>>>>>>>>>>>>>>
-	    private static List<Integer> creaListaCasuale() {
-	    	 
+	    private static List<Integer> creaListaCasuale() { 
 		    System.out.print("Inserisci il numero di elementi: ");
 		    int n = input.nextInt();
 	        Random rand = new Random();
